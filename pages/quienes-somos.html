@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Conoce a Caramelitos, tu tienda de confianza para golosinas y caramelos. Descubre nuestra misión, visión y compromiso con la calidad en la venta al por mayor y menor. ¡Endulzamos tus momentos especiales!">
     <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -12,18 +14,25 @@
     <script src="https://kit.fontawesome.com/3415d360fb.js" crossorigin="anonymous"></script>
     <!-- link css -->
     <link rel="stylesheet" href="../css/style.css">
+    <!-- link scss -->
+    <link rel="stylesheet" href="./css/main.css">
     <!-- link Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <title>Mercado de Golosinas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <title>Quienes somos | Caramelitos</title>
 </head>
 
 <body>
+
+    <!-- Comimienzo Header -->
     <header>
+
+
         <nav class="navbar navbar-expand-lg bg-body-tertiary menu">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../Index.html">
+                <a class="navbar-brand" href="../index.html">
                     <img src="../img/logo-title.png" alt="Logo">
                 </a>
                 <button class="navbar-toggler menu-button" type="button" data-bs-toggle="collapse"
@@ -34,7 +43,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="../Index.html">Home</a>
+                            <a class="nav-link" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./quienes-somos.html">Quienes somos</a>
@@ -67,14 +76,38 @@
                 </div>
             </div>
         </nav>
+
+
     </header>
+    <!--Fin Header  -->
     <!-- comiezo main -->
-    <main>
-        <img src="../img/negocio-frente.jpeg" alt="negocio frente">
-        <h1>Somos Caramelitos!</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, placeat labore? Beatae explicabo dolore inventore ex voluptatum commodi illum nisi omnis tenetur exercitationem natus sequi iusto unde, enim quas ab!
-        </p>    
+    <main class="main-quienes-somos">
+        <section class="container nosotros-section">
+            <h3 class="nosotros-title">Sobre nosotros</h3>
+
+            <div class="nosotros">
+                <div class="nosotros-textos">
+                    <div class="nosotros-parrafo">
+                        <p class="parrafo-texto"><span>Bienvenidos a Caramelitos</span>, tu tienda en línea
+                            especializada en la venta al por mayor y menor de golosinas y caramelos. Desde nuestra
+                            fundación, nos hemos dedicado a ofrecer una amplia variedad de dulces de la más alta
+                            calidad, satisfaciendo los gustos de grandes y chicos.</p>
+                        <p class="parrafo-texto"><span>Nuestra misión</span> es endulzar cada momento de la vida de
+                            nuestros clientes, proporcionando golosinas deliciosas, frescas y a precios competitivos.
+                            Nos esforzamos por ser la tienda preferida para todas tus necesidades de dulces, ya sea que
+                            estés organizando una fiesta, abasteciendo tu tienda o simplemente disfrutando de un
+                            capricho personal.</p>
+                        <p class="parrafo-texto"><span>Aspiramos a ser</span> el principal proveedor de golosinas en el
+                            mercado, destacándonos por nuestra calidad, variedad y servicio al cliente. Queremos que
+                            cada uno de nuestros clientes viva una experiencia inolvidable con cada compra, descubriendo
+                            nuevos sabores y disfrutando de sus dulces favoritos.</p>
+                    </div>
+                </div>
+                <div class="nosotros-img">
+                    <img src="../img/local-03.jpeg" alt="imagen local" class="img-local-nosotros">
+                </div>
+            </div>
+        </section>
     </main>
     <!-- fin main -->
     <!-- comiezo footer -->
@@ -84,11 +117,15 @@
                 <article class="footer-section">
                     <h3 class="footer-section-title">Enlaces</h3>
                     <ul class="footer-section-table">
-                        <li class="footer-section-links"><a href="../Index.html">Inicio</a></li>
-                        <li class="footer-section-links"><a href="./quienes-somos.html" class=" footer-section-link">Quienes somos</a></li>
-                        <li class="footer-section-links"><a href="./productos.html" class=" footer-section-link">Productos</a></li>
-                        <li class="footer-section-links"><a href="./galeria.html" class=" footer-section-link">Galeria</a></li>
-                        <li class="footer-section-links"><a href="./contacto.html" class=" footer-section-link">Contacto</a></li>
+                        <li class="footer-section-links"><a href="../index.html">Inicio</a></li>
+                        <li class="footer-section-links"><a href="./quienes-somos.html"
+                                class=" footer-section-link">Quienes somos</a></li>
+                        <li class="footer-section-links"><a href="./productos.html"
+                                class=" footer-section-link">Productos</a></li>
+                        <li class="footer-section-links"><a href="./galeria.html"
+                                class=" footer-section-link">Galeria</a></li>
+                        <li class="footer-section-links"><a href="./contacto.html"
+                                class=" footer-section-link">Contacto</a></li>
                     </ul>
                 </article>
                 <article class="footer-section">
@@ -118,7 +155,8 @@
                         <form action="" class="suscribe-container-form">
                             <input type="email" class="suscribe-container-input input"
                                 placeholder="Ingresa tu correo electronico">
-                            <a type="Enviar" class="button button-primary suscribe-container-button">Suscribirme</a>
+                            <a href="#" type="Enviar"
+                                class="button button-primary suscribe-container-button">Suscribirme</a>
                         </form>
                     </div>
                 </article>
@@ -136,8 +174,8 @@
     <!-- scrip bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
-    
+        </script>
+
 
 </body>
 

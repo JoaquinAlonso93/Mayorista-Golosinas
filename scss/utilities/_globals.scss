@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #3c122c;
+}
+
+.input{
+    border: none;
+    font-size: 1.1rem;
+    background-color:#ffffff;
+    padding: 18px;
+    outline: none;
+    color: #3c122c;
+    border-radius: 5px;
+}
+
+.button{
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button-primary{
+    color:#3c122c;
+    background-color: yellow;
+}
+
+.button-primary:hover{
+    background-color: #fc5185;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.button-secondary{
+    color: white;
+    background-color: #3c122c;
+}
+
+.button-secondary:hover{
+    background-color: #fc5185;
+    color: #3c122c;
+    transition: 0.3s;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 20px;
+}
+
+body, input{
+    font-family: "Nunito", sans-serif;
+}

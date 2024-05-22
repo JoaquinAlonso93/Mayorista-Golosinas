@@ -1,0 +1,14 @@
+@import "./utilities/variables";
+@import "./utilities/globals";
+@import "./utilities/loop";
+@import "./components/header";
+
+@import "./pages/main-index";
+@import "./pages/main-contacto";
+@import "./pages/main-galeria";
+@import "./pages/main-productos";
+@import "./pages/main-quienes-somos";
+
+
+@import "./components/footer";
+@import "./utilities/media-queries";

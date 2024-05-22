@@ -1,0 +1,50 @@
+header {
+    background-color: $color-principal !important;
+
+    .menu {
+        background-color: $color-principal !important;
+        font-size: 20px;
+
+        .container-fluid {
+            .navbar-brand {
+                .logo {
+                    width: 70px;
+                }
+            }
+
+            .menu-button {
+                border: none;
+
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+
+            .menu-icon {
+                background-image: url(../img/menu-hamburguesa.svg);
+            }
+        }
+
+        .navbar-collapse {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        color: #ffffff;
+
+                        &:hover {
+                            color: nth($list: $colores, $n:5 );
+                        }
+                    }
+                }
+
+
+                .buscador {
+                    .button-search {
+                        color: #ffffff;
+                        border-color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+}
