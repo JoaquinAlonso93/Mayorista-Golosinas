@@ -124,65 +124,62 @@ header .menu .navbar-collapse .navbar-nav .buscador .button-search {
   object-position: center;
 }
 
-footer {
+.footer {
   background-color: #fc5185;
   display: flex;
   flex-direction: column;
 }
-footer .footer-sections {
+.footer .footer-sections {
   background-color: #ffeffe;
   padding: 50px 20px;
   display: flex;
   justify-content: center;
 }
-footer .footer-sections .footer-sections-container {
+.footer .footer-sections .footer-sections-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  max-width: 1440px;
-  padding: 0px 20px;
 }
-footer .footer-sections .footer-sections-container .footer-section .footer-section-title {
+.footer .footer-sections .footer-sections-container .footer-section .footer-section-title {
   color: #3c122c;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
-footer .footer-sections .footer-sections-container .footer-section .footer-section-table {
+.footer .footer-sections .footer-sections-container .footer-section .footer-section-table {
   list-style: none;
 }
-footer .footer-sections .footer-sections-container .footer-section .footer-section-table .footer-section-links {
+.footer .footer-sections .footer-sections-container .footer-section .footer-section-table .footer-section-links {
   margin-bottom: 0.2rem;
 }
-footer .footer-sections .footer-sections-container .footer-section .footer-section-table .footer-section-links .footer-section-link {
+.footer .footer-sections .footer-sections-container .footer-section .footer-section-table .footer-section-links .footer-section-link {
   color: #3c122c;
   font-size: 1.1rem;
 }
-footer .footer-sections .footer-sections-container .footer-section .footer-section-table .footer-section-links .footer-section-link:hover {
+.footer .footer-sections .footer-sections-container .footer-section .footer-section-table .footer-section-links .footer-section-link:hover {
   color: #61c8d1;
 }
-footer .footer-sections .footer-sections-container .ft-social .follow .social-container {
+.footer .footer-sections .footer-sections-container .ft-social .social-container {
   margin-bottom: 1rem;
-  height: 28px;
 }
-footer .footer-sections .footer-sections-container .ft-social .follow .social-container .social-icon {
+.footer .footer-sections .footer-sections-container .ft-social .social-container a {
   margin-right: 15px;
 }
-footer .footer-sections .footer-sections-container .ft-social .follow .social-container .social-icon .img-social {
+.footer .footer-sections .footer-sections-container .ft-social .social-container a .img-social {
   height: 28px;
 }
-footer .footer-sections .footer-sections-container .suscribe-container-form {
+.footer .footer-sections .footer-sections-container .ft-social .suscribe-container .suscribe-container-form {
   display: flex;
   flex-direction: column;
 }
-footer .footer-sections .footer-sections-container .suscribe-container-form .suscribe-container-input {
+.footer .footer-sections .footer-sections-container .ft-social .suscribe-container .suscribe-container-form .suscribe-container-input {
   margin-bottom: 1rem;
 }
-footer .footer-sections .footer-sections-container .suscribe-container-form .suscribe-container-button {
+.footer .footer-sections .footer-sections-container .ft-social .suscribe-container .suscribe-container-form .suscribe-container-button {
   text-align: center;
   width: 150px;
 }
-footer .footer-copy-text {
+.footer .footer-copy .footer-copy-text {
   text-align: center;
   color: #ffffff;
   font-size: 1.1rem;
