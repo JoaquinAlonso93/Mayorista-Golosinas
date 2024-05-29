@@ -106,7 +106,7 @@ a{
 
 /* Main Index */
 
-.encabezado-img{
+/* .encabezado-img{
     background-image: url(./../img/Caramelitos.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,30 +115,28 @@ a{
     height: 400px;
     object-fit: cover;
     object-position:center 
-}
+} */
 
-h1{
+/* h1{
     text-align: center;
-    padding-top: 10px ;
-    
+    padding-top: 10px ;    
+} */
 
-}
-
-main{
+/* main{
     background-color: #61c8d1;
-}
+} */
 
 
 
-.card{
+/* .card{
     align-items: center;
     margin-top: 15px;
     text-align: center;
-}
+} */
 
-.card-img{
+/* .card-img{
     width: 100px;
-}
+} */
 
 /* .carrusel{
     float: none;

@@ -1,0 +1,47 @@
+.main-index{
+    .cards-01{
+        .container{
+            .row{
+                .col-md-4{
+                    .card{
+                        align-items: center;
+                        margin-top: 15px;
+                        text-align: center;
+
+                        &-img{
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mas-buscados{
+        .container{
+            .row{
+                .col-md-4{
+                    .card{
+                        align-items: center;
+                        margin-top: 15px;
+                        text-align: center;
+
+                        &-img{
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.encabezado-img{
+    background-image: url(./../img/Caramelitos.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position:center 
+}
